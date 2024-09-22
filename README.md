@@ -1,16 +1,16 @@
-=== Advanced Custom Fields: Repeater Field ===
+# Advanced Custom Fields: Repeater Field
 
-== Installation ==
+# Installation
 
 This software can be treated as both a WP plugin and a theme include.
 However, only when activated as a plugin will updates be available/
 
-= Plugin =
+# Plugin
 1. Copy the 'acf-repeater' folder into your plugins folder
 2. Activate the plugin via the Plugins admin page
 
 
-== Changelog ==
+# Changelog
 
 = 2.2.0 =
 * Added support for ACF version 6.1.6
