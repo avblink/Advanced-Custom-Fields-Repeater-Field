@@ -3,7 +3,7 @@
 # Installation
 
 This software can be treated as both a WP plugin and a theme include.
-However, only when activated as a plugin will updates be available/
+However, only when activated as a plugin will updates be available
 
 # Plugin
 1. Copy the 'acf-repeater' folder into your plugins folder
