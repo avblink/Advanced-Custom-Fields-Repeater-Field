@@ -21,9 +21,9 @@ class acf_field_repeater extends acf_field {
 	function initialize() {
 		
 		// vars
-		$this->name = 'repeater';
-		$this->label = __("Repeater",'acf');
-		$this->category = 'layout';
+		$this->name = 'custom_repeater';
+		$this->label = __("Custom Repeater",'acf');
+		$this->category = 'Custom';
 		$this->defaults = array(
 			'sub_fields'	=> array(),
 			'min'			=> 0,

@@ -2,7 +2,7 @@
 	
 	var Field = acf.Field.extend({
 		
-		type: 'repeater',
+		type: 'custom_repeater',
 		wait: '',
 		
 		events: {
@@ -384,10 +384,10 @@
 	
 	
 	// register existing conditions
-	acf.registerConditionForFieldType('hasValue', 'repeater');
-	acf.registerConditionForFieldType('hasNoValue', 'repeater');
-	acf.registerConditionForFieldType('lessThan', 'repeater');
-	acf.registerConditionForFieldType('greaterThan', 'repeater');
+	acf.registerConditionForFieldType('hasValue', 'custom_repeater');
+	acf.registerConditionForFieldType('hasNoValue', 'custom_repeater');
+	acf.registerConditionForFieldType('lessThan', 'custom_repeater');
+	acf.registerConditionForFieldType('greaterThan', 'custom_repeater');
 	
 	
 	// state
